@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "97137281-842f-4601-a0d2-812b8e678526",
+		"name": "github-contributors",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000?url=https://github.com/orelmoshe/monorepo-example",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"country\": \"IL\",\r\n    \"city\":\"netanya\",\r\n    \"radius\":\"500\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000?url=https://github.com/orelmoshe/monorepo-example",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"query": [
+						{
+							"key": "url",
+							"value": "https://github.com/orelmoshe/monorepo-example"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000?url=https://github.com/orelmoshe/monorepo-example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"country\": \"IL\",\r\n    \"city\":\"netanya\",\r\n    \"radius\":\"500\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000?url=https://github.com/orelmoshe/monorepo-example",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"query": [
+								{
+									"key": "url",
+									"value": "https://github.com/orelmoshe/monorepo-example"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1710"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6ae-xkRiND42Mg3HhOk6vQWa/wEHIlk\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 08 Jan 2021 13:59:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"url\": \"https://github.com/orelmoshe/monorepo-example\",\n        \"services\": [\n            {\n                \"name\": \"monorepo-example\",\n                \"files\": [\n                    {\n                        \"path\": \"lerna.json\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    },\n                    {\n                        \"path\": \"package.json\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    },\n                    {\n                        \"path\": \"README.md\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    },\n                    {\n                        \"path\": \"yarn.lock\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    },\n                    {\n                        \"path\": \"src/applications/cli/index.js\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    },\n                    {\n                        \"path\": \"src/applications/cli/package.json\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    },\n                    {\n                        \"path\": \"src/packages/sayHello/index.js\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    },\n                    {\n                        \"path\": \"src/packages/sayHello/package.json\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    }\n                ]\n            },\n            {\n                \"name\": \"@applications/cli\",\n                \"files\": [\n                    {\n                        \"path\": \"src/applications/cli/index.js\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    },\n                    {\n                        \"path\": \"src/applications/cli/package.json\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    }\n                ]\n            },\n            {\n                \"name\": \"@packages/sayHello\",\n                \"files\": [\n                    {\n                        \"path\": \"src/packages/sayHello/index.js\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    },\n                    {\n                        \"path\": \"src/packages/sayHello/package.json\",\n                        \"devOwner\": {\n                            \"name\": \"orelmoshe\",\n                            \"email\": \"orel@spectory.com\",\n                            \"date\": \"2020-12-06T22:09:30Z\"\n                        }\n                    }\n                ]\n            }\n        ]\n    }\n}"
+				}
+			]
+		}
+	]
+}
