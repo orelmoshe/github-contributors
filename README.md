@@ -33,7 +33,7 @@ data structure:
             "path": "lerna.json",
             "devOwner": {
               "name": "orelmoshe",
-              "email": "orel@spectory.com",
+              "email": "orel@gmail.com",
               "date": "2020-12-06T22:09:30Z"
             }
           },
@@ -41,7 +41,7 @@ data structure:
             "path": "package.json",
             "devOwner": {
               "name": "orelmoshe",
-              "email": "orel@spectory.com",
+              "email": "orel@gmail.com",
               "date": "2020-12-06T22:09:30Z"
             }
           },
@@ -49,7 +49,7 @@ data structure:
             "path": "README.png",
             "devOwner": {
               "name": "orelmoshe",
-              "email": "orel@spectory.com",
+              "email": "orel@gmail.com",
               "date": "2021-01-16T15:59:00Z"
             }
           },
@@ -57,7 +57,7 @@ data structure:
             "path": "README.md",
             "devOwner": {
               "name": "orelmoshe",
-              "email": "orel@spectory.com",
+              "email": "orel@gmail.com",
               "date": "2020-12-06T22:09:30Z"
             }
           },
@@ -65,7 +65,7 @@ data structure:
             "path": "yarn.lock",
             "devOwner": {
               "name": "orelmoshe",
-              "email": "orel@spectory.com",
+              "email": "orel@gmail.com",
               "date": "2020-12-06T22:09:30Z"
             }
           },
@@ -73,7 +73,7 @@ data structure:
             "path": "src/packages/sayHello/index.js",
             "devOwner": {
               "name": "orelmoshe",
-              "email": "orel@spectory.com",
+              "email": "orel@gmail.com",
               "date": "2020-12-06T22:09:30Z"
             }
           },
@@ -81,7 +81,7 @@ data structure:
             "path": "src/packages/sayHello/package.json",
             "devOwner": {
               "name": "orelmoshe",
-              "email": "orel@spectory.com",
+              "email": "orel@gmail.com",
               "date": "2020-12-06T22:09:30Z"
             }
           },
@@ -97,7 +97,7 @@ data structure:
             "path": "src/applications/cli/package.json",
             "devOwner": {
               "name": "orelmoshe",
-              "email": "orel@spectory.com",
+              "email": "orel@gmail.com",
               "date": "2020-12-06T22:09:30Z"
             }
           }
@@ -110,7 +110,7 @@ data structure:
             "path": "src/packages/sayHello/index.js",
             "devOwner": {
               "name": "orelmoshe",
-              "email": "orel@spectory.com",
+              "email": "orel@gmail.com",
               "date": "2020-12-06T22:09:30Z"
             }
           },
@@ -131,7 +131,7 @@ data structure:
             "path": "src/applications/cli/index.js",
             "devOwner": {
               "name": "orelmoshe",
-              "email": "orel@spectory.com",
+              "email": "orel@gmail.com",
               "date": "2020-12-06T22:09:30Z"
             }
           },
@@ -139,7 +139,7 @@ data structure:
             "path": "src/applications/cli/package.json",
             "devOwner": {
               "name": "orelmoshe",
-              "email": "orel@spectory.com",
+              "email": "orel@gmail.com",
               "date": "2020-12-06T22:09:30Z"
             }
           }
