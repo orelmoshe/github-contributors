@@ -1,7 +1,9 @@
 const AxiosService = require('../services/axios.service');
 
 const prefix = 'https://api.github.com';
-
+const axiosConfig = {
+	headers: { Authorization: `Bearer ${process.env.API_KEY}` },
+};
 class HttpService {
 	static instance;
 	axiosService;
@@ -17,7 +19,9 @@ class HttpService {
 	async getCommitsByPathFile(nameUser, repoName, path) {
 		try {
 			console.log('Try to get Commits by path file');
-			const response = await this.axiosService.get(prefix + `/repos/${nameUser}/${repoName}/commits?path=${path}`);
+			const response = await this.axiosService.get(prefix + `/repos/${nameUser}/${repoName}/commits?path=${path}`, {
+				axiosConfig,
+			});
 			console.log(`Final to get Commits by path file, response: ${response.data}`);
 			return response;
 		} catch (ex) {
